@@ -8,3 +8,8 @@ html {
 section {
   scroll-margin-top: 80px;
 }
+
+main {
+  padding-top: 80px;
+}
+

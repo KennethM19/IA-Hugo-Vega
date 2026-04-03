@@ -9,7 +9,7 @@ c-tabs-list {
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: 0.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 1rem;
 }
 
@@ -82,6 +82,7 @@ button[cTab]:disabled:hover {
   margin-bottom: 0.5rem;
   background: linear-gradient(to right, #60a5fa, #34d399);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -94,4 +95,25 @@ button[cTab]:disabled:hover {
 
 .material-semana a:hover {
   color: #60a5fa;
+}
+
+/* --- MOBILE RESPONSIVENESS (<= 768px) --- */
+@media (max-width: 768px) {
+  button[cTab] {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  c-tabs-list {
+    gap: 0.75rem;
+    padding-bottom: 0.5rem; /* Space for scrollbar if needed */
+  }
+
+  .material-semana {
+    gap: 1.5rem;
+  }
+
+  .material-semana .material {
+    flex: 1 1 100%; /* Una sola columna en móvil */
+  }
 }

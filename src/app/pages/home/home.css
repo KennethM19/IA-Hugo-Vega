@@ -10,6 +10,7 @@ section h1, section h3, section h4 {
   font-weight: 700;
   background: linear-gradient(to right, #60a5fa, #34d399);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
 }
@@ -84,4 +85,54 @@ section p, section li {
 
 .integrantes-info img:hover {
   transform: scale(1.05);
+}
+
+/* --- MOBILE RESPONSIVENESS (<= 768px) --- */
+@media (max-width: 768px) {
+  section {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .inicio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    max-width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .carousel {
+    max-width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .datos-docente {
+    flex-direction: column;
+  }
+
+  .info-docente {
+    text-align: center;
+  }
+
+  .datos-docente img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  section h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 1rem 0.5rem;
+  }
+
+  .integrantes-info {
+    gap: 0.5rem;
+  }
 }

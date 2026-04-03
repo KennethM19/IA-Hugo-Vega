@@ -8,6 +8,15 @@ import {Component, HostListener} from '@angular/core';
 })
 export class Header {
   activeSection: string = 'inicio';
+  isNavOpen: boolean = false;
+
+  toggleNav() {
+    this.isNavOpen = !this.isNavOpen;
+  }
+
+  closeNav() {
+    this.isNavOpen = false;
+  }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
