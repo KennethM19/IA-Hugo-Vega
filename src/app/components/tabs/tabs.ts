@@ -1,18 +1,21 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Tabs2Module} from '@coreui/angular';
 import {TabPanel} from '../tab-panel/tab-panel';
+import {DatePipe} from '@angular/common';
 
 @Component({
   selector: 'app-tabs',
-  imports: [Tabs2Module, TabPanel],
+  imports: [Tabs2Module, TabPanel, DatePipe],
   standalone: true,
   templateUrl: './tabs.html',
   styleUrl: './tabs.css',
 })
-export class Tabs {
+export class Tabs  implements OnInit {
   weeks = [
     {
       key: 0,
+      start: new Date(2026, 2, 30),
+      end: new Date(2026, 3, 5),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -22,6 +25,8 @@ export class Tabs {
     },
     {
       key: 1,
+      start: new Date(2026, 3, 6),
+      end: new Date(2026, 3, 12),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -31,6 +36,8 @@ export class Tabs {
     },
     {
       key: 2,
+      start: new Date(2026, 3, 13),
+      end: new Date(2026, 3, 19),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -40,6 +47,8 @@ export class Tabs {
     },
     {
       key: 3,
+      start: new Date(2026, 3, 20),
+      end: new Date(2026, 3, 26),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -49,6 +58,8 @@ export class Tabs {
     },
     {
       key: 4,
+      start: new Date(2026, 3, 27),
+      end: new Date(2026, 4, 3),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -58,6 +69,8 @@ export class Tabs {
     },
     {
       key: 5,
+      start: new Date(2026, 4, 4),
+      end: new Date(2026, 4, 10),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -67,6 +80,8 @@ export class Tabs {
     },
     {
       key: 6,
+      start: new Date(2026, 4, 11),
+      end: new Date(2026, 4, 17),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -76,6 +91,8 @@ export class Tabs {
     },
     {
       key: 7,
+      start: new Date(2026, 4, 18),
+      end: new Date(2026, 4, 24),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -85,6 +102,8 @@ export class Tabs {
     },
     {
       key: 8,
+      start: new Date(2026, 4, 25),
+      end: new Date(2026, 4, 31),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -94,6 +113,8 @@ export class Tabs {
     },
     {
       key: 9,
+      start: new Date(2026, 5, 1),
+      end: new Date(2026, 5, 7),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -103,6 +124,8 @@ export class Tabs {
     },
     {
       key: 10,
+      start: new Date(2026, 5, 8),
+      end: new Date(2026, 5, 14),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -112,6 +135,8 @@ export class Tabs {
     },
     {
       key: 11,
+      start: new Date(2026, 5, 15),
+      end: new Date(2026, 5, 21),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -121,6 +146,8 @@ export class Tabs {
     },
     {
       key: 12,
+      start: new Date(2026, 5, 22),
+      end: new Date(2026, 5, 28),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -130,6 +157,8 @@ export class Tabs {
     },
     {
       key: 13,
+      start: new Date(2026, 5, 29),
+      end: new Date(2026, 6, 5),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -139,6 +168,8 @@ export class Tabs {
     },
     {
       key: 14,
+      start: new Date(2026, 6, 6),
+      end: new Date(2026, 6, 12),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -148,6 +179,8 @@ export class Tabs {
     },
     {
       key: 15,
+      start: new Date(2026, 6, 13),
+      end: new Date(2026, 6, 19),
       title: 'Introducción a Angular',
       points: ['Componentes', 'Directivas', 'Servicios'],
       summary: 'En esta clase veremos los fundamentos de Angular.',
@@ -156,4 +189,21 @@ export class Tabs {
       workLink: 'https://github.com/tu-repo/trabajo-angular'
     },
   ]
+
+  activeWeekKey = 0;
+  today = new Date();
+
+  ngOnInit() {
+    this.setActiveWeek();
+  }
+
+  setActiveWeek() {
+    const current = this.weeks.find(w =>
+      this.today >= w.start && this.today <= w.end
+    );
+    if (current) {
+      this.activeWeekKey = current.key;
+    }
+  }
+
 }

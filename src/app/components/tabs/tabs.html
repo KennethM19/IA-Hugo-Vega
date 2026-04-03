@@ -1,7 +1,9 @@
-<c-tabs [activeItemKey]="0">
+<c-tabs [activeItemKey]="activeWeekKey">
   <c-tabs-list variant="pills">
     @for (week of weeks; track week) {
-      <button cTab [itemKey]="week.key">
+      <button cTab [itemKey]="week.key"
+              [disabled]="today < week.start"
+              [title]="'Disponible desde ' + (week.start | date:'dd/MM/yyyy')">
         Semana {{ week.key + 1 }}
       </button>
     }

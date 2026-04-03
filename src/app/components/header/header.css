@@ -1,14 +1,18 @@
 .app-header {
+  position: fixed; /* antes estaba sticky */
+  top: 0;
+  left: 0;
+  width: 100%;
   background: rgba(15, 23, 42, 0.9);
   backdrop-filter: blur(12px);
   border-bottom: 2px solid rgba(255, 255, 255, 0.05);
   color: #fff;
   padding: 1rem 2rem;
-  top: 0;
   z-index: 1000;
-  width: 100%;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
+
 
 .header-nav {
   max-width: 1200px;
@@ -42,6 +46,12 @@
   padding: 0;
 }
 
+.nav-links a.active {
+  color: #007bff;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}
+
 .nav-links li a {
   text-decoration: none;
   color: #94a3b8;
@@ -69,6 +79,25 @@
 
 .nav-links li a:hover::after {
   width: 100%;
+}
+
+.header-nav button {
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header-nav button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, #34d399, #60a5fa);
 }
 
 @media (max-width: 768px) {
