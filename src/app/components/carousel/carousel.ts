@@ -34,5 +34,11 @@ export class Carousel implements OnInit {
       title: 'Third slide',
       subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
     };
+    this.slides[3] = {
+      id: 3,
+      src: './media/img/peru.png',
+      title: 'Fourth slide',
+      subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+    };
   }
 }
