@@ -1,27 +1,26 @@
-  <div class="content-tab">
-    <div class="info-tema">
-      <h3>{{ title }}</h3>
-      <ul>
-        @for (point of points; track point) {
-          <li> {{point}}</li>
-        }
-      </ul>
-      <p>{{ summary }}</p>
-    </div>
-
-    <div class="material-semana">
-      <div class="material">
-        <h4>Recurso</h4>
-        <a [href]="resourceLink" target="_blank">Ver recurso</a>
-      </div>
-      <div class="material">
-        <h4>Laboratorio</h4>
-        <a [href]="labLink" target="_blank">Ver laboratorio</a>
-      </div>
-      <div class="material">
-        <h4>Trabajo</h4>
-        <a [href]="workLink" target="_blank">Ver trabajo</a>
-      </div>
-    </div>
+<div class="content-tab">
+  <div class="info-tema">
+    <h3>{{ title }}</h3>
+    <ul>
+      @for (point of points; track point) {
+        <li>{{ point }}</li>
+      }
+    </ul>
+    <p>{{ summary }}</p>
   </div>
 
+  <div class="material-semana">
+    <div class="material">
+      <h4>Recurso</h4>
+      <a (click)="openLink(resourceLink,'Recurso')" href="javascript:void(0)">Ver recurso</a>
+    </div>
+    <div class="material">
+      <h4>Laboratorio</h4>
+      <a (click)="openLink(labLink,'Laboratorio')" href="javascript:void(0)">Ver laboratorio</a>
+    </div>
+    <div class="material">
+      <h4>Trabajo</h4>
+      <a (click)="openLink(workLink,'Trabajo')" href="javascript:void(0)">Ver trabajo</a>
+    </div>
+  </div>
+</div>

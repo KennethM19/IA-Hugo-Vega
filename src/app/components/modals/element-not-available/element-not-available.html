@@ -1,0 +1,33 @@
+<c-modal
+  alignment="center"
+  id="verticallyCenteredModal"
+  [visible]="isVisible"
+  class="custom-modal"
+>
+  <c-modal-header class="custom-modal-header">
+    <h5 cModalTitle class="custom-modal-title">
+      {{ modalTitle }}
+    </h5>
+    <button
+      (click)="closeModal()"
+      cButtonClose
+      class="custom-close-btn"
+      aria-label="Cerrar"
+    ></button>
+  </c-modal-header>
+
+  <c-modal-body class="custom-modal-body">
+    {{ modalMessage }}
+  </c-modal-body>
+
+  <c-modal-footer class="custom-modal-footer">
+    <button
+      (click)="closeModal()"
+      cButton
+      color="secondary"
+      class="custom-btn"
+    >
+      Cerrar
+    </button>
+  </c-modal-footer>
+</c-modal>

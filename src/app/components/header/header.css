@@ -1,5 +1,5 @@
 .app-header {
-  position: fixed; /* antes estaba sticky */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -12,7 +12,6 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
   0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-
 
 .header-nav {
   max-width: 1200px;
@@ -53,7 +52,6 @@
   border-bottom: 2px solid #007bff;
 }
 
-/* Navigation Link Styles */
 .nav-links li a {
   text-decoration: none;
   color: #94a3b8;
@@ -73,7 +71,6 @@
   color: #fff;
 }
 
-/* Nav Link Animation */
 .nav-links li a::after {
   content: '';
   position: absolute;
@@ -90,7 +87,6 @@
   width: 100%;
 }
 
-/* Syllabus Button (base) */
 .syllabus-btn {
   background: linear-gradient(to right, #60a5fa, #34d399);
   border: none;
@@ -110,7 +106,6 @@
   background: linear-gradient(to right, #34d399, #60a5fa);
 }
 
-/* Visibility Utilities */
 .mobile-only {
   display: none !important;
 }
@@ -119,7 +114,6 @@
   display: inline-block !important;
 }
 
-/* Toggle Button (hidden on desktop) */
 .nav-toggle {
   display: none;
   background: transparent;
@@ -129,7 +123,6 @@
   cursor: pointer;
 }
 
-/* --- MOBILE RESPONSIVENESS (<= 768px) --- */
 @media (max-width: 768px) {
   .app-header {
     padding: 0.75rem 1.25rem;
@@ -152,7 +145,7 @@
   .nav-links {
     position: fixed;
     top: 0;
-    right: -100%; /* Hidden by default */
+    right: -100%;
     width: 250px;
     height: 100vh;
     background: #0f172a;
@@ -181,7 +174,6 @@
   }
 }
 
-/* Overlay for mobile menu */
 .nav-overlay {
   position: fixed;
   top: 0;
