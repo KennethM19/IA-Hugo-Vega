@@ -2,10 +2,10 @@ import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-tab-panel',
-  imports: [
-  ],
+  imports: [],
   templateUrl: './tab-panel.html',
   styleUrl: './tab-panel.css',
+  standalone: true
 })
 export class TabPanel {
   @Input() title!: string;

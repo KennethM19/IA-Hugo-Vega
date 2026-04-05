@@ -8,6 +8,7 @@ import {ImgDirective} from '@coreui/angular';
   ],
   templateUrl: './integrante-card.html',
   styleUrl: './integrante-card.css',
+  standalone: true
 })
 export class IntegranteCard {
   @Input() nombre!: string;

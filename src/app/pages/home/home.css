@@ -79,8 +79,7 @@ section p, section li {
 }
 
 .integrantes-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
   gap: 1rem;
   justify-content: center;
   width: 100%;
