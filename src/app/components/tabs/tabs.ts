@@ -27,12 +27,12 @@ export class Tabs  implements OnInit {
       key: 1,
       start: new Date(2026, 3, 6),
       end: new Date(2026, 3, 12),
-      title: 'Introducción a Angular',
-      points: ['Componentes', 'Directivas', 'Servicios'],
-      summary: 'En esta clase veremos los fundamentos de Angular.',
-      resourceLink: 'https://angular.io/docs',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      title: 'Agentes',
+      points: ['¿Qué es un agente?', 'Conceptos', 'Tipos de agente', 'Diseño', 'Aplicaciones'],
+      summary: 'Un agente inteligente es una entidad que percibe su entorno mediante sensores y actúa sobre él usando actuadores con el objetivo de tomar decisiones para cumplir una meta. Para entenderlos, se consideran conceptos como entorno, percepción, acción y racionalidad (elegir la mejor opción posible). Existen varios tipos de agentes, como los reactivos, basados en modelo, en objetivos, en utilidad y de aprendizaje. Para diseñar uno, se deben definir su objetivo, el entorno donde operará, el tipo de agente, sus sensores y acciones, y cómo tomará decisiones (reglas o aprendizaje). Estos agentes se aplican en diferentes campos como la robótica, autos autónomos, videojuegos, asistentes virtuales, medicina y finanzas.',
+      resourceLink: 'https://canva.link/tyknlshks0afjk0',
+      labLink: '',
+      workLink: ''
     },
     {
       key: 2,

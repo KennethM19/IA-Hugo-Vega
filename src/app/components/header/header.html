@@ -5,7 +5,6 @@
       <span>FISI IA</span>
     </div>
 
-    <!-- Nav Toggle (Mobile) -->
     <button class="nav-toggle" (click)="toggleNav()" aria-label="Abrir navegación móvil">
       <i class="pi" [class.pi-bars]="!isNavOpen" [class.pi-times]="isNavOpen"></i>
     </button>
@@ -16,15 +15,14 @@
       <li><a [class.active]="activeSection === 'grupo'" href="#grupo" (click)="closeNav()">Grupo</a></li>
       <li><a [class.active]="activeSection === 'material'" href="#material" (click)="closeNav()">Material</a></li>
       <li class="mobile-only">
-        <button class="syllabus-btn" onclick="">Syllabus</button>
+        <button class="syllabus-btn" onclick="openSyllabus()">Syllabus</button>
       </li>
     </ul>
 
-    <button class="syllabus-btn desktop-only" onclick="">
+    <button class="syllabus-btn desktop-only" onclick="openSyllabus()">
       Syllabus
     </button>
   </nav>
 
-  <!-- Overlay for mobile menu -->
   <div class="nav-overlay" [class.show]="isNavOpen" (click)="closeNav()"></div>
 </header>

@@ -18,6 +18,10 @@ export class Header {
     this.isNavOpen = false;
   }
 
+  openSyllabus() {
+    window.open('https://drive.google.com/file/d/1RAhUb8pFAWpVOwnSLO5NfyHaDNZbVbTi/view?usp=drive_link','_blank');
+  }
+
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const sections = document.querySelectorAll('section');
