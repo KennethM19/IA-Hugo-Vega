@@ -42,19 +42,19 @@ export class Tabs  implements OnInit {
       points: ['La búsqueda como método de resolución de problemas.', 'El Espacio de Estados', 'Búsqueda Ciega (No informada)', 'Búsqueda Informada (Heurística)'],
       summary: 'Los métodos de búsqueda en inteligencia artificial son técnicas utilizadas para resolver problemas mediante la exploración de un conjunto de estados, definidos a partir de un estado inicial, acciones posibles, un modelo de transición, una prueba de objetivo y un costo asociado. Dentro de este enfoque, el espacio de estados representa todas las configuraciones alcanzables. Existen dos tipos principales: la búsqueda ciega, que no utiliza información adicional para guiarse (como BFS, DFS y costo uniforme), y la búsqueda informada, que emplea heurísticas para optimizar la exploración (como A* y la búsqueda voraz). Estos métodos se aplican en distintos contextos, como el procesamiento de grafos y la robótica, donde la eficiencia y la optimización en la toma de decisiones son fundamentales.',
       resourceLink: 'https://canva.link/91bqd3e3u8pejkj',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      labLink: '',
+      workLink: ''
     },
     {
       key: 3,
       start: new Date(2026, 3, 20),
       end: new Date(2026, 3, 26),
-      title: 'Introducción a Angular',
-      points: ['Componentes', 'Directivas', 'Servicios'],
-      summary: 'En esta clase veremos los fundamentos de Angular.',
-      resourceLink: 'https://angular.io/docs',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      title: 'Juegos de estrategia',
+      points: ['Juegos humano-máquina', 'Algoritmos clásicos', 'Caso de estudio 1', 'Aprendizaje automático', 'Caso de estudio 2'],
+      summary: ' los juegos de estrategia han sido un campo clave para el desarrollo de la inteligencia artificial, desde los algoritmos clásicos como Minimax y la poda Alpha-Beta, hasta sistemas modernos como AlphaZero y AlphaStar. Se muestra que la IA pasó de buscar en árboles de decisión a aprender mediante auto-juego y aprendizaje por refuerzo, logrando superar a programas tradicionales en ajedrez, shogi y Go, y alcanzando nivel Gran Maestro en StarCraft II. En conclusión, los juegos de estrategia son más que entretenimiento: son laboratorios donde la IA aprende a tomar decisiones complejas y creativas en entornos con reglas definidas.',
+      resourceLink: 'https://canva.link/agr39pcvc0el08b',
+      labLink: '',
+      workLink: 'https://drive.google.com/file/d/18oVFI0-4JjPKlzSk8gNlnzOrOOj8T8ho/view?usp=drive_link'
     },
     {
       key: 4,
