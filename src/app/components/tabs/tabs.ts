@@ -60,12 +60,12 @@ export class Tabs  implements OnInit {
       key: 4,
       start: new Date(2026, 3, 27),
       end: new Date(2026, 4, 3),
-      title: 'Introducción a Angular',
-      points: ['Componentes', 'Directivas', 'Servicios'],
-      summary: 'En esta clase veremos los fundamentos de Angular.',
-      resourceLink: 'https://angular.io/docs',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      title: 'Métodos supervisados en machine learnin',
+      points: ['Introducción', 'Tipos de problemas', 'Algoritmos principales', 'Evaluación', 'Pipeline', 'Casos de estudio', 'Aplicaciones'],
+      summary: 'El Machine Learning es una rama de la inteligencia artificial que permite a las máquinas aprender a partir de datos sin ser programadas explícitamente para cada tarea. Dentro de este campo, el aprendizaje supervisado se basa en el uso de datos etiquetados, donde el modelo aprende a relacionar entradas con salidas para poder hacer predicciones sobre nuevos datos. Este enfoque se aplica en problemas de clasificación, como identificar correos spam, y de regresión, como predecir precios. Para lograrlo, se utilizan distintos algoritmos como la regresión lineal, árboles de decisión o máquinas de soporte vectorial, los cuales deben ser evaluados cuidadosamente para evitar problemas como el sobreajuste. Además, su importancia radica en su aplicación en situaciones reales, como el diagnóstico médico o la detección de fraudes, donde la capacidad de predecir correctamente puede tener un impacto significativo.',
+      resourceLink: 'https://docs.google.com/presentation/d/1zfTEBrEanIbgB5cFJAhBobsal012qyng/edit?usp=drive_link&ouid=101646515364576140580&rtpof=true&sd=true',
+      labLink: '',
+      workLink: 'https://drive.google.com/file/d/1QAO54vU1cfdHZZ84zUUxwylRep38dLhw/view?usp=drive_link'
     },
     {
       key: 5,
