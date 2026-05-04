@@ -65,7 +65,7 @@ export class Tabs  implements OnInit {
       summary: 'El Machine Learning es una rama de la inteligencia artificial que permite a las máquinas aprender a partir de datos sin ser programadas explícitamente para cada tarea. Dentro de este campo, el aprendizaje supervisado se basa en el uso de datos etiquetados, donde el modelo aprende a relacionar entradas con salidas para poder hacer predicciones sobre nuevos datos. Este enfoque se aplica en problemas de clasificación, como identificar correos spam, y de regresión, como predecir precios. Para lograrlo, se utilizan distintos algoritmos como la regresión lineal, árboles de decisión o máquinas de soporte vectorial, los cuales deben ser evaluados cuidadosamente para evitar problemas como el sobreajuste. Además, su importancia radica en su aplicación en situaciones reales, como el diagnóstico médico o la detección de fraudes, donde la capacidad de predecir correctamente puede tener un impacto significativo.',
       resourceLink: 'https://docs.google.com/presentation/d/1zfTEBrEanIbgB5cFJAhBobsal012qyng/edit?usp=drive_link&ouid=101646515364576140580&rtpof=true&sd=true',
       labLink: '',
-      workLink: 'https://drive.google.com/file/d/1QAO54vU1cfdHZZ84zUUxwylRep38dLhw/view?usp=drive_link'
+      workLink: 'https://drive.google.com/file/d/1bi-qP96vpi2zETE6HLGwTGkUSyJiRxnE/view?usp=sharing'
     },
     {
       key: 5,
