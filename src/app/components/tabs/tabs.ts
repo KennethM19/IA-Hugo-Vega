@@ -88,12 +88,22 @@ export class Tabs  implements OnInit {
       key: 6,
       start: new Date(2026, 4, 11),
       end: new Date(2026, 4, 17),
-      title: 'Introducción a Angular',
-      points: ['Componentes', 'Directivas', 'Servicios'],
-      summary: 'En esta clase veremos los fundamentos de Angular.',
-      resourceLink: 'https://angular.io/docs',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      title: 'Métodos por refuerzo',
+      points: ['Fundamentos', 'Aplicaciones y limitaciones', 'Algoritmos', 'Ejemplos'],
+      summary: 'El aprendizaje por refuerzo es una rama de la Inteligencia Artificial en la que un agente aprende a tomar decisiones mediante prueba y error, recibiendo recompensas cuando actúa correctamente y castigos cuando se equivoca. Este método se basa en conceptos como el agente, el entorno, los estados, las acciones y las recompensas, permitiendo que los sistemas mejoren continuamente su comportamiento para maximizar beneficios a largo plazo. Sus aplicaciones son muy amplias, desde vehículos autónomos y sistemas de recomendación como Netflix o YouTube, hasta videojuegos y robótica avanzada. Además, algoritmos como Q-Learning y Deep Q-Network (DQN) hacen posible resolver problemas complejos utilizando redes neuronales y aprendizaje automático. Finalmente, herramientas de Python como Gymnasium, Stable Baselines3 y TensorFlow facilitan la creación y entrenamiento de modelos inteligentes basados en aprendizaje por refuerzo.',
+      resourceLink: 'https://canva.link/cjo39evsqymmve6',
+      labLink: '',
+      workLink: [
+        {
+          name: 'Dataset', url: 'https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000'
+        },
+        {
+          name: 'Código fuente', url: 'https://colab.research.google.com/drive/1DDxwjm_bazx37Qy51Euyq1AKF2lWjE03?usp=sharing#scrollTo=uX8_LQ0N-bBN'
+        },
+        {
+          name: 'Informe Comparativo', url: 'https://drive.google.com/file/d/1-q_puVGMhSc_YM66x81U9WI2xXpCXwg3/view?usp=drive_link'
+        }
+      ]
     },
     {
       key: 7,
