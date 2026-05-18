@@ -109,12 +109,12 @@ export class Tabs  implements OnInit {
       key: 7,
       start: new Date(2026, 4, 18),
       end: new Date(2026, 4, 24),
-      title: 'Introducción a Angular',
-      points: ['Componentes', 'Directivas', 'Servicios'],
-      summary: 'En esta clase veremos los fundamentos de Angular.',
-      resourceLink: 'https://angular.io/docs',
-      labLink: 'https://stackblitz.com/angular-lab',
-      workLink: 'https://github.com/tu-repo/trabajo-angular'
+      title: 'Fundamentos de Deep Learning',
+      points: ['Fundamentos', 'ML Clásico vs Deep Learning', 'Aplicaciones y Limitaciones', 'Casos'],
+      summary: 'El Deep Learning o aprendizaje profundo es una subdisciplina del Machine Learning que utiliza redes neuronales artificiales con múltiples capas para aprender automáticamente patrones complejos a partir de grandes volúmenes de datos. A diferencia del Machine Learning clásico, donde las características deben ser seleccionadas manualmente, el Deep Learning realiza un aprendizaje de extremo a extremo, extrayendo por sí mismo las representaciones más relevantes mediante algoritmos como el backpropagation. Tecnologías como las redes convolucionales (CNN) y recurrentes (RNN) han revolucionado áreas como la visión computacional, el procesamiento de lenguaje natural, la medicina y la biología computacional. Entre sus aplicaciones destacan el diagnóstico de cáncer de piel mediante imágenes médicas y sistemas avanzados como AlphaFold2 para predecir el plegamiento de proteínas. Sin embargo, también presenta limitaciones, como la necesidad de grandes cantidades de datos, alto poder computacional y problemas de interpretabilidad debido a su naturaleza de “caja negra”.',
+      resourceLink: 'https://canva.link/x32ron1qr6ui0wv',
+      labLink: 'https://drive.google.com/file/d/1COXDI0kxSn4JEzFSS1PHk9tPtEtsx6Ff/view?usp=sharing',
+      workLink: 'https://drive.google.com/file/d/1gVB0JCWeXMbbaVNkuNpZeLltua1aM94a/view?usp=sharing'
     },
     {
       key: 8,
